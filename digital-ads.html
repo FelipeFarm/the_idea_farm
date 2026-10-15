@@ -755,6 +755,11 @@ body{background:#FBFAF6;margin:0}
   .ads-hero-full .ads-wrap>div:first-child>*,.ads-hero-full .ads-wrap>:nth-child(2){animation:none!important}
 }
 .ads-dash-cap a{color:var(--ads-accent);font-weight:600}
+/* white cards inside dark banners keep dark text */
+.ads-hero-full .ads-dash,.ads-hero-full .ads-stat,.ads-hero-full .ads-kpi,.ads-hero-full .ads-formcard,.ads-hero-full .ads-contactlist li,
+.ads-closing-full .ads-dash,.ads-closing-full .ads-stat{color:var(--ads-fg)}
+.ads-hero-full .ads-kpi .ads-v,.ads-hero-full .ads-stat .ads-n{color:var(--ads-fg)}
+.ads-hero-full .ads-kpi .ads-v.ads-down,.ads-hero-full .ads-stat .ads-n.ads-down{color:var(--ads-accent)}
 
 @media(min-width:1040px){.ads-layers-3{grid-template-columns:repeat(3,1fr)}}.ads-ph figcaption{display:none}
 .ads-findings li::after{display:none!important}.ads-findings p{font-size:.93rem}.ads-findings p b{color:var(--ads-fg)}.ads-planlist{margin:0;padding-left:0;list-style:none;display:grid;gap:12px}.ads-planlist li{color:var(--ads-muted);font-size:.96rem}.ads-planlist b{color:var(--ads-fg)}
